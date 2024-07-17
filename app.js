@@ -15,7 +15,7 @@ app.listen(port, ( () => {
     console.log('Server running on http://localhost:3000/')
 }))
 
-// index
+// index route
 
 app.get('/', (req, res) => {
     const locals = {
