@@ -1,0 +1,31 @@
+{
+  "name": "express-tail",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app",
+    "tailwind:css": "postcss public/css/main.css -o public/css/style.css"
+  },
+  "keywords": [],
+  "author": "Krisnaxda",
+  "license": "ISC",
+  "description": "Starter Template for ExpressJS and Tailwind CSS for your project",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "connect-mongo": "^5.1.0",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-validator": "^7.1.0",
+    "mongoose": "^8.5.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "postcss-cli": "^11.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4"
+  }
+}
